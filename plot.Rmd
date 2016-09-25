@@ -1,0 +1,29 @@
+---
+title: "Ken's Eggs"
+output: html_document
+---
+
+Historical Egg Counts
+
+```{r data, include=FALSE}
+
+eggs <- c(8,8)
+
+start <- "2016-09-23"
+
+today <- "2016-09-24"
+
+date <-seq(as.Date(start), as.Date(today), by="days")
+
+
+df <- data.frame(eggs, date)
+
+```
+
+```{r plot, echo=FALSE}
+library(plotly)
+
+plot_ly(df, x = date, y = eggs)
+
+```
+
