@@ -1,8 +1,9 @@
 name: "KensEggs.github.io"
 navbar:
-  title: "My Website"
+  title: ""
   left:
     - text: "Home"
       href: index.html
     - text: "Historical"
       href: plot.html
+output_dir: "."
