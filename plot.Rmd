@@ -7,11 +7,11 @@ Historical Egg Counts
 
 ```{r data, include=FALSE}
 
-eggs <- c(8,8)
+eggs <- c(8,8,8)
 
 start <- "2016-09-23"
 
-today <- "2016-09-24"
+today <- "2016-09-25"
 
 date <-seq(as.Date(start), as.Date(today), by="days")
 
