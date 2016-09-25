@@ -18,10 +18,12 @@ date <-seq(as.Date(start), as.Date(today), by="days")
 
 df <- data.frame(eggs, date)
 
+library(plotly)
+
 ```
 
-```{r plot, echo=FALSE}
-library(plotly)
+```{r plot, echo=FALSE, warnings=FALSE}
+
 
 plot_ly(df, x = date, y = eggs)
 
