@@ -22,7 +22,7 @@ library(plotly)
 
 ```
 
-```{r plot, echo=FALSE, warnings=FALSE}
+```{r plot, echo=FALSE, warning=FALSE}
 
 
 plot_ly(df, x = date, y = eggs)
