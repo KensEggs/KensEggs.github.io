@@ -4,3 +4,7 @@ output: html_document
 ---
 
 Hello world, I'm Ken's Eggs! 
+
+<h2 style="text-align: center;" markdown="1">Today's Egg Count:</h2>
+
+<h1 style="text-align: center;" markdown="1">8</h1>
